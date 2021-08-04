@@ -8,6 +8,11 @@
 
 <div class='container'>
     <?php include '../includes/nav.php' ?>
+    <div class='hero'>
+        <div class="hero_overlay"></div>
+        <img src="/images/admin.jpg" class='hero_img'/>
+        <h3 class='hero_header'>Administration</h3>
+    </div>
     <div class='login_card'>
         <h1>Ulogujte se</h1>
         <?php 

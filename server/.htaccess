@@ -1,6 +1,6 @@
 RewriteEngine on
 
-RewriteRule ^(login|admin|signup|kategorije|proizvodjaci)$ $1.php [NC,L]
+RewriteRule ^(login_fontana|admin|signup|kategorije|proizvodjaci)$ $1.php [NC,L]
 
 RewriteRule ^admin/kategorije$ admin.php?page=kategorije [NC,L]
 RewriteRule ^admin/proizvodjaci$ admin.php?page=proizvodjaci [NC,L]
