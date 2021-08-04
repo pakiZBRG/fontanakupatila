@@ -10,10 +10,10 @@
     <?php include '../includes/nav.php' ?>
     <div class='hero'>
         <div class="hero_overlay"></div>
-        <img src="/images/admin.jpg" class='hero_img'/>
+        <img style='height: 40vh' src="/images/admin.jpg" class='hero_img'/>
         <h3 class='hero_header'>Administration</h3>
     </div>
-    <div class='login_card'>
+    <div class='login_card' style='margin-bottom: 2rem'>
         <h1>Ulogujte se</h1>
         <?php 
             if(isset($_GET["error"])) {
