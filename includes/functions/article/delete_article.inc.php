@@ -25,7 +25,7 @@
                 }
             }
             if($stmt) {
-                header("Location: /fontanakupatila/server/admin/artikli");
+                header("Location: /server/admin/artikli");
                 exit();
             }
         }

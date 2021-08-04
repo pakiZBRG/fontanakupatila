@@ -39,12 +39,12 @@
         </div>
         <div class="form_control">
             <label for="image">Slika</label>
-            <img class='update_image' src="/fontanakupatila/server/images/<?php echo $image ?>"/>
+            <img class='update_image' src="/server/images/<?php echo $image ?>"/>
             <input type="file" name='image'>
         </div>
         <input type='hidden' name='id' value=<?php echo $id ?>/>
         <input style='width: 10rem' type='submit' name='update' value='Azuriraj' class='login_btn'/>
-        <a class='cancel' href='/fontanakupatila/server/admin/proizvodjaci'>Ponisti</a>
+        <a class='cancel' href='/server/admin/proizvodjaci'>Ponisti</a>
     </form>
 
 <?php } } ?>

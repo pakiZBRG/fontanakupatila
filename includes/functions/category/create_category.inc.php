@@ -6,7 +6,7 @@
         $name = mysqli_real_escape_string($conn, $_POST["name"]);
 
         if(empty($name)) {
-            header("Location: /fontanakupatila/server/admin/kategorije?error=empty");
+            header("Location: /server/admin/kategorije?error=empty");
             exit();
         } else {
             $sql = "INSERT INTO categories (name) VALUES (?)";
@@ -14,7 +14,7 @@
             mysqli_stmt_bind_param($stmt, "s", $name);
             mysqli_stmt_execute($stmt);
             if($stmt) {
-                header("Location: /fontanakupatila/server/admin/kategorije?success=true");
+                header("Location: /server/admin/kategorije?success=true");
             }
         }
     }

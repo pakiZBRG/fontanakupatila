@@ -28,7 +28,7 @@
     <?php include 'includes/nav.php' ?>
     <div class='hero'>
         <div class="hero_overlay"></div>
-        <img src="/fontanakupatila/images/<?php echo $page ?>.jpg" class='hero_img'/>
+        <img src="/images/<?php echo $page ?>.jpg" class='hero_img'/>
         <h3 class='hero_header'><?php echo $page ?></h3>
     </div>
 
@@ -36,11 +36,11 @@
         echo "
             <div class='product'>
                 <div class='product_img'>
-                    <img src='/fontanakupatila/server/images/$product_image'/>
+                    <img src='/server/images/$product_image'/>
                 </div>
                 <div class='product_info'>
                     <h2 class='product_name'>$product_name</h2>
-                    <img class='product_man' src='/fontanakupatila/server/images/$product_man_image'/>
+                    <img class='product_man' src='/server/images/$product_man_image'/>
                     <h4 class='product_dimension'>$hasDimension</h4>
                     <p>$product_description</p>
                     <h2 class='product_price'>$format_price din$squareM</h2>

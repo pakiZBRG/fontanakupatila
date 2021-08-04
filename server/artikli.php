@@ -117,7 +117,7 @@
             </div>
             <div class="form_control">
                 <label for="image">Slika <span id='required'>*</span></label>
-                <img class='update_image' src="/fontanakupatila/server/images/<?php echo $image ?>"/>
+                <img class='update_image' src="/server/images/<?php echo $image ?>"/>
                 <input type="file" name='image'>
             </div>
             <div class="form_control">
@@ -125,7 +125,7 @@
                 <textarea style='width: 40rem; resize:none; font-size: 1rem' name='description' rows='7'><?php echo $description ?></textarea>
             </div>
             <input style='width: 20rem' type='submit' name='update' value='Azuriraj artikl' class='login_btn'/>
-            <a class='cancel' href='/fontanakupatila/server/admin/artikli'>Ponisti</a>
+            <a class='cancel' href='/server/admin/artikli'>Ponisti</a>
         </form>
     </div>
 

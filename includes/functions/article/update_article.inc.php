@@ -56,7 +56,7 @@
             mysqli_stmt_bind_param($stmt, "ssiissii", $name, $post_image, $price, $producer_id, $dimension, $description, $category_id, $id);
             mysqli_stmt_execute($stmt);
             if($stmt) {
-                header("Location: /fontanakupatila/server/admin/artikli/izmeni/$id/success");
+                header("Location: /server/admin/artikli/izmeni/$id/success");
             } else {
                 die("Query Failed: ".mysqli_error($conn));
             }

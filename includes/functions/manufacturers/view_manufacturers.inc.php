@@ -25,10 +25,10 @@
 
         echo "</td>
                 <td style='width: 15%' id='action'>
-                    <a href='/fontanakupatila/server/admin/proizvodjaci/izmeni/$id'>
+                    <a href='/server/admin/proizvodjaci/izmeni/$id'>
                         <i style='color: blue' class='fa fa-lg fa-edit'></i>
                     </a>
-                    <a onClick=\"return confirm('Jeste li sigurni da zelite da izbrisete artikl?');\" href='/fontanakupatila/server/admin/proizvodjaci/$id'>
+                    <a onClick=\"return confirm('Jeste li sigurni da zelite da izbrisete artikl?');\" href='/server/admin/proizvodjaci/$id'>
                         <i style='color: crimson' class='fa fa-lg fa-trash'></i>
                     </a>
                 </td>

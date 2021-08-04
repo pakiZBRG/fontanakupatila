@@ -61,20 +61,20 @@
                     <tr>
                         <td style='width: 5%'>$product_id</td>
                         <td style='width: 10%' class='image'>
-                            <img src='/fontanakupatila/server/images/$image'>
+                            <img src='/server/images/$image'>
                         </td>
                         <td style='width: 30%'><b>$name</b></td>
                         <td style='width: 15%' class='image'>
-                            <img src='/fontanakupatila/server/images/$producer'/>
+                            <img src='/server/images/$producer'/>
                         </td>
                         <td style='width: 10%'>$format_price</td>
                         <td style='width: 10%'>$category</td>
                         <td style='width: 15%'>$dimension</td>
                         <td style='width: 5%' id='action'>
-                            <a href='/fontanakupatila/server/admin/artikli/izmeni/$product_id'>
+                            <a href='/server/admin/artikli/izmeni/$product_id'>
                                 <i style='color: blue' class='fa fa-lg fa-edit'></i>
                             </a>
-                            <a onClick=\"return confirm('Jeste li sigurni da zelite da izbrisete artikl?');\" href='/fontanakupatila/server/admin/artikli/$product_id'>
+                            <a onClick=\"return confirm('Jeste li sigurni da zelite da izbrisete artikl?');\" href='/server/admin/artikli/$product_id'>
                                 <i style='color: crimson' class='fa fa-lg fa-trash'></i>
                             </a>
                         </td>

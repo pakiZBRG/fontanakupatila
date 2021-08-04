@@ -11,7 +11,7 @@
             mysqli_stmt_bind_param($stmt, "i", $id);
             mysqli_stmt_execute($stmt);
             if($stmt) {
-                header("Location: /fontanakupatila/server/admin/proizvodjaci");
+                header("Location: /server/admin/proizvodjaci");
                 exit();
             }
         }

@@ -7,7 +7,7 @@
         $id = $_POST["id"];
 
         if(empty($name)) {
-            header("Location: /fontanakupatila/server/admin/kategorije/izmeni/".$id."empty_field");
+            header("Location: /server/admin/kategorije/izmeni/".$id."empty_field");
             exit();
         }
 
@@ -17,7 +17,7 @@
         mysqli_stmt_bind_param($stmt, "si", $name, $id);
         mysqli_stmt_execute($stmt);
         if($stmt){
-            header("Location: /fontanakupatila/server/admin/kategorije/izmeni/".$id."success");
+            header("Location: /server/admin/kategorije/izmeni/".$id."success");
             exit();
         }
 

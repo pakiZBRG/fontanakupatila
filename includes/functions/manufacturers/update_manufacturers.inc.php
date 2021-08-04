@@ -25,7 +25,7 @@
             $result = mysqli_stmt_get_result($stmt);
             if($row = mysqli_fetch_assoc($result)) {
                 $post_image = $row["man_image"];
-                $filename = "/fontanakupatila/server/images/$post_image";
+                $filename = "/server/images/$post_image";
                 if (file_exists($filename)) {
                     unlink($filename);
                 }

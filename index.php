@@ -18,7 +18,7 @@
                     
                     echo "
                     <li class='nav'>
-                        <a class='nav_link' href='/fontanakupatila/kategorija/$link'>
+                        <a class='nav_link' href='/kategorija/$link'>
                             <div class='overlay'></div>
                             <img class='nav_image' src='/images/$image'/>
                             <p class='nav_link_name'>$name</p>

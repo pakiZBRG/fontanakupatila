@@ -3,7 +3,7 @@
 ?>
 
     <h2>Kreirajte novu kategoriju artikala</h2>
-    <form action="/fontanakupatila/includes/functions/category/create_category.inc.php" method="POST">
+    <form action="/includes/functions/category/create_category.inc.php" method="POST">
         <div class='form_control'>
             <label>Ime</label>
             <input type='name' name='name' autocomplete="off" placeholder="Bojler, Rasveta, Laminati..."/>
@@ -25,14 +25,14 @@
 ?>
 
     <h2>Azurirajte kategoriju artikala</h2>
-    <form action="/fontanakupatila/includes/functions/category/update_category.inc.php" method="POST">
+    <form action="/includes/functions/category/update_category.inc.php" method="POST">
         <div class='form_control'>
             <label>Ime</label>
             <input type='name' name='name' autocomplete="off" value="<?php echo $name; ?>"/>
         </div>
         <input type='hidden' name='id' value=<?php echo $id ?>/>
         <input style='width: 10rem' type='submit' name='update' value='Azuriraj' class='login_btn'/>
-        <a class='cancel' href='/fontanakupatila/server/admin/kategorije'>Ponisti</a>
+        <a class='cancel' href='/server/admin/kategorije'>Ponisti</a>
     </form>
 
 <?php } } ?>

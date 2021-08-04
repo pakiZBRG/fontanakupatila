@@ -1,11 +1,11 @@
 <nav class='navigation'>
     <div class='navigation_flex'>
-        <img class='navigation_img' src='/fontanakupatila/images/logo.png'>
+        <img class='navigation_img' src='/images/logo.png'>
         <ul class='navigation_links'>
-            <li><a href='/fontanakupatila'>Pocetna</a></li>
-            <li><a href='/fontanakupatila/saloni'>Saloni</a></li>
-            <li><a href='/fontanakupatila/kontakt'>Kontakt</a></li>
-            <li><a href='/fontanakupatila/o_nama'>O nama</a></li>
+            <li><a href='/'>Pocetna</a></li>
+            <li><a href='/saloni'>Saloni</a></li>
+            <li><a href='/kontakt'>Kontakt</a></li>
+            <li><a href='/o_nama'>O nama</a></li>
             <li><span class='navigation_hover'>Ponuda</span>
                 <ul class='navigation_dropdown'>
                 <?php
@@ -17,14 +17,14 @@
                         $name = $row["name"];
                         $link = strtolower(str_replace(" ", '-', $name));
                         
-                        echo "<li><a href='/fontanakupatila/kategorija/$link'>$name</a></li>";
+                        echo "<li><a href='/kategorija/$link'>$name</a></li>";
                     }
                 ?>
                 </ul>
             </li>
             <?php
                 if(isset($_SESSION["email"])) {
-                    echo "<li><a href='/fontanakupatila/server/admin/kategorije'><i class='fa fa-user'></i> Admin</a></li>";
+                    echo "<li><a href='/server/admin/kategorije'><i class='fa fa-user'></i> Admin</a></li>";
                 }
             ?>
         </ul>

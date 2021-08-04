@@ -16,10 +16,10 @@
                 <td style='width: 10%'>$id</td>
                 <td style='width: 75%'><b>$name</b></td>
                 <td style='width: 15%' id='action'>
-                    <a href='/fontanakupatila/server/admin/kategorije/izmeni/$id'>
+                    <a href='/server/admin/kategorije/izmeni/$id'>
                         <i style='color: blue' class='fa fa-lg fa-edit'></i>
                     </a>
-                    <a onClick=\"return confirm('Jeste li sigurni da zelite da izbrisete artikl?');\" href='/fontanakupatila/server/admin/kategorije/$id'>
+                    <a onClick=\"return confirm('Jeste li sigurni da zelite da izbrisete artikl?');\" href='/server/admin/kategorije/$id'>
                         <i style='color: crimson' class='fa fa-lg fa-trash'></i>
                     </a>
                 </td>

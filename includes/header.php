@@ -8,16 +8,16 @@
     $name = '';
 
     switch($pageName){
-        case "/fontanakupatila/kontakt.php":
+        case "/kontakt.php":
             $name = ' | Kontakt';
             break;
-        case "/fontanakupatila/saloni.php":
+        case "/saloni.php":
             $name = ' | Saloni';
             break;
-        case "/fontanakupatila/o_nama.php":
+        case "/o_nama.php":
             $name = ' | O Nama';
             break;
-        case "/fontanakupatila/admin.php":
+        case "/admin.php":
             $name = ' | Admin';
             break;
         default:

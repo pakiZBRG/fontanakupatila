@@ -69,6 +69,6 @@
         </div>
     </div>
 </div>
-<script src='/fontanakupatila/js/splide.js'></script>
+<script src='js/splide.js'></script>
 
 <?php include 'includes/footer.php' ?>

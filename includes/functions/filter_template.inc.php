@@ -53,14 +53,14 @@
     
             echo "
                 <div class='card'>
-                    <a href='/fontanakupatila/kategorija/$link/$id'>
-                        <img src='/fontanakupatila/server/images/$image'/>
+                    <a href='/kategorija/$link/$id'>
+                        <img src='/server/images/$image'/>
                     </a>
                     <div style='margin: 1.5rem'>
                         <h3 class='name'>$product_name</h3>
                         <h5 class='dimension'>$hasDimension</h5>
                         <div class='producer'>
-                            <img class='image' src='/fontanakupatila/server/images/$producer'/>
+                            <img class='image' src='/server/images/$producer'/>
                         </div>
                         <h4 class='price'>$format_price din$squareM</h4>
                     </div>

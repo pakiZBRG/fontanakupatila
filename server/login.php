@@ -2,7 +2,7 @@
     include '../includes/header.php';
 
     if(isset($_SESSION["email"])) {
-        header("Location: /fontanakupatila/server/admin");
+        header("Location: /server/admin");
     }
 ?>
 
@@ -20,7 +20,7 @@
                 }
             }
         ?>
-        <form action="/fontanakupatila/includes/functions/login.inc.php" method='POST'>
+        <form action="/includes/functions/login.inc.php" method='POST'>
             <div class='form_control'>
                 <label>Email</label>
                 <input type='email' name='email' autocomplete="off" placeholder="neko@gmail.com"/>
@@ -31,7 +31,7 @@
             </div>
             <input type='submit' name='login' value='Uloguj se' class='login_btn'/>
         </form>
-        <a href='/fontanakupatila/server/signup' class='create_account'>Kreirajte nalog</a>
+        <a href='/server/signup' class='create_account'>Kreirajte nalog</a>
     </div>
 </div>
 
