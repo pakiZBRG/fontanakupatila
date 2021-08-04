@@ -1,0 +1,6 @@
+RewriteEngine on
+
+RewriteRule ^(index|saloni|kontakt|o_nama|galanterija|bojleri|radijatori|galanterija|laminati|baterije|admin)$ $1.php [NC,L]
+
+RewriteRule ^kategorija/([^/]+)$ template.php?page=$1 [NC,L]
+RewriteRule ^kategorija/([^/]+)/(\d+)$ single.php?page=$1&id=$2 [NC,L]

@@ -1,0 +1,25 @@
+.content {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 18rem auto;
+    height: calc(100vh - 74.4px);
+  
+    &_nav {
+      background: #333;
+  
+      &_links {
+        list-style: none;
+        color: #e2e2e2;
+        margin: 0;
+        padding: 0;
+        
+        & a li{
+          padding: 1.5rem;
+          transition: box-shadow 200ms;
+          &:hover {
+            box-shadow: inset 0 0 40px #434343;
+          }
+        }
+      }
+    }
+  }

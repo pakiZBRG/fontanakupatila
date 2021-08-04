@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    align-items: flex-end;
+    background: #222;
+    font-size: 0.9rem;
+    padding: 1rem 0;
+
+    &_flex{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        & p{
+            color: white;
+            & a{
+                color: pink;
+            }
+        }
+    }
+}

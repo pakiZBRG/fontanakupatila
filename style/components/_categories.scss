@@ -1,0 +1,43 @@
+.categories{
+    width: 80%;
+    margin: 4rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    & thead {
+        background: rgba(128, 128, 128, 0.393);
+        text-align: left;
+        & tr th {
+            padding: 0.6rem;
+        }
+    }
+    & tbody {
+        background: rgba(128, 128, 128, 0.037);
+        & tr td {
+            padding: 0.6rem;
+        }
+        &tr {
+            transition: 400ms;
+        }
+        & tr:hover{
+            background: rgba(128, 128, 128, 0.237);
+            & #action{
+                opacity: 1;
+            }
+        }
+    }
+}
+
+#action {
+    transition: 200ms;
+    opacity: 0;
+}
+
+.cancel {
+    color: #222;
+    margin-left: 2rem;
+}

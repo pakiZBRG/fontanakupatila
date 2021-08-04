@@ -1,0 +1,22 @@
+RewriteEngine on
+
+RewriteRule ^(login|admin|signup|kategorije|proizvodjaci)$ $1.php [NC,L]
+
+RewriteRule ^admin/kategorije$ admin.php?page=kategorije [NC,L]
+RewriteRule ^admin/proizvodjaci$ admin.php?page=proizvodjaci [NC,L]
+RewriteRule ^admin/artikli$ admin.php?page=artikli [NC,L]
+RewriteRule ^admin/artikli/novi$ admin.php?page=novi_artikli [NC,L]
+
+RewriteRule ^admin/kategorije/izmeni/(\d+)$ admin.php?page=kategorije&cat_id=$1 [NC,L]
+RewriteRule ^admin/kategorije/izmeni/(\d+)/empty_field$ admin.php?page=kategorije&cat_id=$1&error=empty_field [NC,L]
+RewriteRule ^admin/kategorije/izmeni/(\d+)/success$ admin.php?page=kategorije&cat_id=$1&success=true [NC,L]
+RewriteRule ^admin/kategorije/(\d+)$ admin.php?page=kategorije&delete=$1 [NC,L]
+
+RewriteRule ^admin/proizvodjaci/izmeni/(\d+)$ admin.php?page=proizvodjaci&man_id=$1 [NC,L]
+RewriteRule ^admin/proizvodjaci/izmeni/(\d+)/empty_field$ admin.php?page=proizvodjaci&man_id=$1&error=empty_field [NC,L]
+RewriteRule ^admin/proizvodjaci/izmeni/(\d+)/success$ admin.php?page=proizvodjaci&man_id=$1&success=true [NC,L]
+RewriteRule ^admin/proizvodjaci/(\d+)$ admin.php?page=proizvodjaci&delete=$1 [NC,L]
+
+RewriteRule ^admin/artikli/izmeni/(\d+)$ admin.php?page=artikli&update=$1 [NC,L]
+RewriteRule ^admin/artikli/izmeni/(\d+)/success$ admin.php?page=artikli&update=$1$sucess=true [NC,L]
+RewriteRule ^admin/artikli/(\d+)$ admin.php?page=artikli&delete=$1 [NC,L]

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(246, 246, 246);
+    font-family: "Montserrat";
+    overflow-x: hidden;
+}
+
+@import "./components/admin";
+@import "./components/admin_nav";
+@import "./components/carousel";
+@import "./components/form";
+@import "./components/footer";
+@import "./components/nav";
+@import "./components/categories";
+@import "./components/create_articles";
+@import "./components/articles";
+@import "./components/salons";
+@import "./components/template";
+@import "./components/single-page";
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+a {
+  color: #e2e2e2;
+  text-decoration: none;
+}
+
+*:focus {
+  outline: none;
+}
+
+.create_account{
+  margin-top: 0.5rem;
+  color: #222;
+}
+
+.alert {
+  background: #f6ea3e9d;
+  padding: 0.7rem;
+  width: 27rem;
+  color: rgb(151, 151, 8);
+  border-radius: 0.5rem;
+  border: 2px solid rgb(151, 151, 8);
+}
+
+.success {
+  background: rgba(8, 223, 8, 0.4);
+  padding: 0.7rem;
+  width: 25rem;
+  color: green;
+  border-radius: 0.5rem;
+  border: 2px solid green;
+}
+
+.active {
+  box-shadow: inset 0 0 50px #434343;
+  font-weight: bold;
+}
+
+#required {
+  font-weight: bolder;
+  color: crimson;
+  font-size: 1.1rem;
+}
+
+.filter{
+  text-transform: uppercase;
+  color: gray;
+  font-weight: bolder;
+  padding: 0;
+  margin-bottom: 0.5rem;
+}
+
+.sort {
+  text-decoration: none;
+  color: white;
+}

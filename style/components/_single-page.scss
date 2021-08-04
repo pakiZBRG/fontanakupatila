@@ -1,0 +1,39 @@
+.product {
+    width: 75%;
+    margin: 6rem auto;
+    display: flex;
+    &_img {
+        display: flex;
+        justify-content: center;
+        max-height: 40rem;
+        & img {
+            height: 100%;
+            width: 100%;
+        }
+        box-shadow: 0 0 5px #333;
+    }
+    &_img, &_info {
+        width: 100%;
+    }
+    &_info {
+        margin: 0 3rem;
+    }
+    &_name {
+        text-align: center;
+        margin: 0;
+        margin-bottom: 3rem;
+    }
+    &_dimension {
+        color: gray;
+        font-weight: bold;
+    }
+    &_man{
+        height: 3rem;
+        margin-top: 2rem;
+    }
+    &_price {
+        font-weight: bolder;
+        text-align: right;
+        color: #222;
+    }
+}

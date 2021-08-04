@@ -1,0 +1,51 @@
+.login_card{
+    position: relative;
+    top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 36rem;
+    padding: 2rem 0;
+    box-shadow: 0 0 10px #222;
+    margin: 0 auto;
+    background: rgb(231, 231, 231);
+  
+    & h1 {
+        margin: 0;
+        margin-bottom: 0.8rem;
+    }
+}
+
+.login_btn {
+    margin-top: 1.5rem;
+    width: 100%;
+    color: white;
+    background: #222;
+    padding: 0.7rem 0;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.form_control{
+    display: flex;
+    flex-direction: column;
+  
+    & label {
+        margin: 0.6rem 0;
+    }
+  
+    & input {
+        border: none;
+        outline: none;
+        padding: 0.5rem;
+        text-indent: 0.3rem;
+        border-radius: 0.8rem;
+        background: rgba(200, 210, 214, 0.527);
+        width: 20rem;
+        font-size: 1rem;
+        font-family: "Montserrat";
+        font-weight: bold;
+        color: #222;
+    }
+}

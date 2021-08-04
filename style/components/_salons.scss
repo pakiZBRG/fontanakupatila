@@ -1,0 +1,38 @@
+.salon{
+    width: 75%;
+    margin: 5rem auto;
+    &_flex{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-around;
+    }
+    & h2 {
+        text-align: center;
+        margin: 2rem 0;
+        font-size: 2rem;
+    }
+}
+
+.work {
+    display: block;
+    width: 25rem;
+    padding: 1rem;
+    &_day {
+        display: flex;
+        justify-content: space-between;
+        margin: 0.5rem;
+        padding: 0.6rem;
+        color: #222;
+        & p {
+            margin: 0;
+            font-size: 1.1rem;
+            &:first-child{
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.white{
+    color: #666;
+}
