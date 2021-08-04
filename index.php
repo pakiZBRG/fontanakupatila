@@ -20,7 +20,7 @@
                     <li class='nav'>
                         <a class='nav_link' href='/fontanakupatila/kategorija/$link'>
                             <div class='overlay'></div>
-                            <img class='nav_image' src='/fontanakupatila/images/$image'/>
+                            <img class='nav_image' src='/images/$image'/>
                             <p class='nav_link_name'>$name</p>
                         </a>
                     </li>";

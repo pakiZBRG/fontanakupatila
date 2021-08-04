@@ -39,8 +39,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Fontana d.o.o. <?php echo $name; ?></title>
-        <link rel="stylesheet" href="/fontanakupatila/style/style.css">
-        <link rel="shortcut icon" type="image/jpg" href="/fontanakupatila/images/logo.png"/>
+        <link rel="stylesheet" href="../style/style.css">
+        <link rel="shortcut icon" type="image/jpg" href="../images/logo.png"/>
         <script src="https://use.fontawesome.com/818acc6ade.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
@@ -52,8 +52,8 @@
                 window.history.replaceState( null, null, window.location.href );
             }
         </script>
-        <script src='/fontanakupatila/js/filter.js'></script>
-        <script src='/fontanakupatila/js/filter_articles.js'></script>
+        <script src='../js/filter.js'></script>
+        <script src='../js/filter_articles.js'></script>
     </head>
 
     <body>
