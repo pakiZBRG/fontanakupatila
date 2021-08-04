@@ -32,7 +32,7 @@
             }
             $post_image = "img-".time().".".explode('/', $_FILES["image"]["type"])[1];
             $post_image_temp = $_FILES["image"]["tmp_name"];
-            move_uploaded_file($post_image_temp, "./images/$post_image");
+            move_uploaded_file($post_image_temp, "/images/$post_image");
         }
 
         if($name == '' || $post_image == '') {

@@ -7,7 +7,7 @@
     <?php include 'includes/nav.php' ?>
     <div class='hero'>
         <div class="hero_overlay"></div>
-        <img src="images/<?php echo $page; ?>.jpg" class='hero_img'/>
+        <img src="/images/<?php echo $page; ?>.jpg" class='hero_img'/>
         <h3 class='hero_header'><?php echo $page; ?></h3>
     </div>
     <div class='product_container'>

@@ -10,28 +10,28 @@
             <div class="splide__track">
                 <ul class="splide__list">
                     <li class="splide__slide">
-                        <img src="images/1.jpg">
+                        <img src="/images/1.jpg">
                     </li>
                     <li class="splide__slide">
-                        <img src="images/2.jpg">
+                        <img src="/images/2.jpg">
                     </li>
                     <li class="splide__slide">
-                        <img src="images/3.jpg">
+                        <img src="/images/3.jpg">
                     </li>
                     <li class="splide__slide">
-                        <img src="images/5.jpg">
+                        <img src="/images/5.jpg">
                     </li>
                     <li class="splide__slide">
-                        <img src="images/6.jpg">
+                        <img src="/images/6.jpg">
                     </li>
                     <li class="splide__slide">
-                        <img src="images/7.jpg">
+                        <img src="/images/7.jpg">
                     </li>
                     <li class="splide__slide">
-                        <img src="images/8.jpg">
+                        <img src="/images/8.jpg">
                     </li>
                     <li class="splide__slide">
-                        <img src="images/9.jpg">
+                        <img src="/images/9.jpg">
                     </li>
                 </ul>
             </div>
@@ -44,25 +44,25 @@
             <div class="splide__track">
                 <ul class="splide__list">
                     <li class="splide__slide">
-                        <img src="images/Fontana_001.jpg">
+                        <img src="/images/Fontana_001.jpg">
                     </li>
                     <li class="splide__slide">
-                        <img src="images/Fontana_002.jpg">
+                        <img src="/images/Fontana_002.jpg">
                     </li>
                     <li class="splide__slide">
-                        <img src="images/Fontana_003.jpg">
+                        <img src="/images/Fontana_003.jpg">
                     </li>
                     <li class="splide__slide">
-                        <img src="images/Fontana_004.jpg">
+                        <img src="/images/Fontana_004.jpg">
                     </li>
                     <li class="splide__slide">
-                        <img src="images/Fontana_005.jpg">
+                        <img src="/images/Fontana_005.jpg">
                     </li>
                     <li class="splide__slide">
-                        <img src="images/Fontana_006.jpg">
+                        <img src="/images/Fontana_006.jpg">
                     </li>
                     <li class="splide__slide">
-                        <img src="images/Fontana_007.jpg">
+                        <img src="/images/Fontana_007.jpg">
                     </li>
                 </ul>
             </div>

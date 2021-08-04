@@ -32,7 +32,7 @@
         } else if(($width == '' || $height == '' || $depth == '') && $thickness == '') {
             echo "<h4 class='alert'>Visina, sirina i dubina ili debljina treba da budu popunjeni i brojevi</h4>";
         } else {
-            move_uploaded_file($post_image_temp, "./images/$new_name");
+            move_uploaded_file($post_image_temp, "/images/$new_name");
             $sql = "INSERT INTO artikli (product_name, image, price, producer_id, dimension, description, category_id) VALUES (?, ?, ?, ?, ?, ?, ?)";
             $stmt = mysqli_prepare($conn, $sql);
             mysqli_stmt_bind_param($stmt, "ssiissi", $name, $new_name, $price, $producer, $dimension, $description, $category);

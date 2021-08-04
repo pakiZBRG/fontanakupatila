@@ -16,7 +16,7 @@ $(document).ready(function(){
         }
 
         $.ajax({
-            url: '/fontanakupatila/includes/functions/filter_template.inc.php',
+            url: '/includes/functions/filter_template.inc.php',
             method: "POST",
             data: {
                 action,
@@ -39,7 +39,7 @@ $(document).ready(function(){
         var manufacturers = get_filter('manufacturers');
 
         $.ajax({
-            url: '/fontanakupatila/includes/functions/filter_template.inc.php',
+            url: '/includes/functions/filter_template.inc.php',
             method: "POST",
             data: {
                 action,

@@ -21,7 +21,7 @@ $(document).ready(function(){
         }
 
         $.ajax({
-            url: "/fontanakupatila/includes/functions/article/view_articles.inc.php",
+            url: "/includes/functions/article/view_articles.inc.php",
             method: "POST",
             data: {
                 action,

@@ -19,7 +19,7 @@
             $img_result = mysqli_stmt_get_result($stmt_img);
             if($row = mysqli_fetch_assoc($img_result)) {
                 $image = $row["image"];
-                $filename = "./images/$image";
+                $filename = "/images/$image";
                 if (file_exists($filename)) {
                     unlink($filename);
                 }

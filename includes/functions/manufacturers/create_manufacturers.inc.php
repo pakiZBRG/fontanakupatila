@@ -13,7 +13,7 @@
         if($name == '' || $post_image == '') {
             echo "<h4 class='alert'>Ime i slika treba da budu popunjeni</h4>";
         } else {
-            move_uploaded_file($post_image_temp, "./images/$new_name");
+            move_uploaded_file($post_image_temp, "/images/$new_name");
             $sql = "INSERT INTO manufacturers (name, man_image) VALUES (?, ?)";
             $stmt = mysqli_prepare($conn, $sql);
             mysqli_stmt_bind_param($stmt, "ss", $name, $new_name);

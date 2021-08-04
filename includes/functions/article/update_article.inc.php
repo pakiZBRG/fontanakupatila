@@ -36,14 +36,14 @@
             $img_result = mysqli_query($conn, $query);
             if($row = mysqli_fetch_assoc($img_result)) {
                 $post_image = $row["image"];
-                $filename = "./images/$post_image";
+                $filename = "/images/$post_image";
                 if (file_exists($filename)) {
                     unlink($filename);
                 }
             }
             $post_image = "img-".time().".".explode('/', $_FILES["image"]["type"])[1];
             $post_image_temp = $_FILES["image"]["tmp_name"];
-            move_uploaded_file($post_image_temp, "./images/$post_image");
+            move_uploaded_file($post_image_temp, "/images/$post_image");
         }
 
         if($price == '' || $producer_id == '' || $name == '' || $post_image == '' || $category_id == '') {
