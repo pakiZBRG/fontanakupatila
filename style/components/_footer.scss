@@ -1,12 +1,29 @@
 .footer {
-    display: flex;
-    align-items: flex-end;
-    background: #222;
-    font-size: 0.9rem;
-    padding: 1rem 0;
+    margin-top: 3rem;
 
-    &_flex{
+    &_up {
+        display: flex;
+        justify-content: space-evenly;
+        background: #222;
+        padding: 0.6rem 0;
+        & img {
+            width: 6rem;
+            object-fit: contain;
+        }
+    }
+    &_links {
+        list-style: none;
+        & li {
+            margin: 0.2rem;
+            color: #bbb;
+        }
+    }
+
+    &_down{
+        background: #111;
         width: 100%;
+        padding: 0.5rem 0;
+        font-size: 0.9rem;
         display: flex;
         justify-content: space-around;
         & p{
