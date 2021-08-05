@@ -1,4 +1,3 @@
-<?php include "header.php" ?>
         <footer class='footer'>
             <div class='footer_up'>
                 <img src='/images/logo.png'/>
